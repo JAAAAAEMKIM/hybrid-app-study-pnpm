@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "",
-    "dev:web": "",
-    "dev:shell": "",
+    "dev:web": "cd web && pn dev",
+    "dev:shell": "cd shell && pn ios",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
