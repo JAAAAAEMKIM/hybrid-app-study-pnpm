@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "",
+    "dev:web": "",
+    "dev:shell": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
