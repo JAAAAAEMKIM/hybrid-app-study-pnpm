@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { ChangeEvent, useRef, useState } from 'react';
+import { ChangeEvent, useRef, useState } from "react";
 
 const FileUploadButton = () => {
   const ref = useRef<HTMLInputElement>(null);
@@ -9,9 +9,12 @@ const FileUploadButton = () => {
   const handleClick = () => {
     ref.current?.click();
   };
-  const handleUpload = (e: ChangeEvent<HTMLInputElement>) => {
-    console.log(e.target);
-    e.target.files && setFile(e.target.files[0]);
+
+  const handleUpload = (event: ChangeEvent<HTMLInputElement>) => {
+    const files = event.target.files;
+    if (files && files.length > 0) {
+      setFile(files[0]);
+    }
   };
 
   return (
