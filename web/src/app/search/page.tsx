@@ -1,5 +1,5 @@
 import { Badge } from "@/components/ui/badge";
-import { Input } from "@/components/ui/input";
+import { Input } from "@/components/ui/Input";
 
 export default function Search() {
   return (
@@ -10,7 +10,7 @@ export default function Search() {
           Search
           <button className="ml-auto">Camera</button>
         </div>
-        <Input placeholder="What do you want to listen to?"></Input>
+        <Input placeholder="What do you want to listen to?" />
       </header>
     </>
   );
