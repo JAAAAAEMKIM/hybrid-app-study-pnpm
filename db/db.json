@@ -1,0 +1,2453 @@
+{
+  "artists": [
+    {
+      "id": "1",
+      "name": "Aurora Skies",
+      "image": "https://picsum.photos/200",
+      "bio": "A vibrant artist known for her ethereal soundscapes."
+    },
+    {
+      "id": "2",
+      "name": "Neon Nights",
+      "image": "https://picsum.photos/200",
+      "bio": "Bringing urban beats and retro vibes."
+    },
+    {
+      "id": "3",
+      "name": "Echoed Dreams",
+      "image": "https://picsum.photos/200",
+      "bio": "Fusing modern pop with classical echoes."
+    },
+    {
+      "id": "4",
+      "name": "Soulful Strings",
+      "image": "https://picsum.photos/200",
+      "bio": "Known for deep, soulful melodies and instrumental mastery."
+    },
+    {
+      "id": "5",
+      "name": "Rhythm Rebels",
+      "image": "https://picsum.photos/200",
+      "bio": "Innovative beats that defy convention."
+    },
+    {
+      "id": "6",
+      "name": "Mystic Melodies",
+      "image": "https://picsum.photos/200",
+      "bio": "Creating enchanting soundscapes that captivate audiences."
+    },
+    {
+      "id": "7",
+      "name": "Harmonic Hues",
+      "image": "https://picsum.photos/200",
+      "bio": "Blending colors and notes into unforgettable tunes."
+    },
+    {
+      "id": "8",
+      "name": "Vintage Vibes",
+      "image": "https://picsum.photos/200",
+      "bio": "Reviving classic sounds with a modern twist."
+    },
+    {
+      "id": "9",
+      "name": "Electric Echo",
+      "image": "https://picsum.photos/200",
+      "bio": "Pulsating rhythms that echo through time."
+    },
+    {
+      "id": "10",
+      "name": "Crescendo Crew",
+      "image": "https://picsum.photos/200",
+      "bio": "A collective of artists pushing the limits of sound."
+    }
+  ],
+  "albums": [
+    {
+      "id": "1",
+      "artistId": 1,
+      "title": "Ethereal Dawn",
+      "cover": "https://picsum.photos/id/31/200",
+      "release_date": "2021-04-15",
+      "description": "Debut album featuring celestial sounds."
+    },
+    {
+      "id": "2",
+      "artistId": 1,
+      "title": "Starlit Voyage",
+      "cover": "https://picsum.photos/id/32/200",
+      "release_date": "2022-08-22",
+      "description": "A journey through night skies."
+    },
+    {
+      "id": "3",
+      "artistId": 1,
+      "title": "Aurora Echoes",
+      "cover": "https://picsum.photos/id/33/200",
+      "release_date": "2023-11-05",
+      "description": "Melodies inspired by the northern lights."
+    },
+    {
+      "id": "4",
+      "artistId": 2,
+      "title": "City Lights",
+      "cover": "https://picsum.photos/id/34/200",
+      "release_date": "2020-07-10",
+      "description": "Urban beats under neon glow."
+    },
+    {
+      "id": "5",
+      "artistId": 2,
+      "title": "Midnight Groove",
+      "cover": "https://picsum.photos/id/35/200",
+      "release_date": "2021-12-01",
+      "description": "Groovy tunes for late-night adventures."
+    },
+    {
+      "id": "6",
+      "artistId": 3,
+      "title": "Reverberations",
+      "cover": "https://picsum.photos/id/36/200",
+      "release_date": "2019-03-20",
+      "description": "Dreamy tracks with lasting echoes."
+    },
+    {
+      "id": "7",
+      "artistId": 3,
+      "title": "Melodic Reflections",
+      "cover": "https://picsum.photos/id/37/200",
+      "release_date": "2020-10-05",
+      "description": "Introspective tunes and soulful melodies."
+    },
+    {
+      "id": "8",
+      "artistId": 3,
+      "title": "Whispered Secrets",
+      "cover": "https://picsum.photos/id/38/200",
+      "release_date": "2021-06-18",
+      "description": "Soft whispers and hidden stories."
+    },
+    {
+      "id": "9",
+      "artistId": 3,
+      "title": "Dreamscape",
+      "cover": "https://picsum.photos/id/39/200",
+      "release_date": "2023-01-12",
+      "description": "An immersive dream-like experience."
+    },
+    {
+      "id": "10",
+      "artistId": 4,
+      "title": "Strings Attached",
+      "cover": "https://picsum.photos/id/30/200",
+      "release_date": "2018-11-30",
+      "description": "A soulful journey through strings."
+    },
+    {
+      "id": "11",
+      "artistId": 5,
+      "title": "Rebel Rhythms",
+      "cover": "https://picsum.photos/id/31/200",
+      "release_date": "2017-05-25",
+      "description": "Energetic beats that break the mold."
+    },
+    {
+      "id": "12",
+      "artistId": 5,
+      "title": "Beat Revolution",
+      "cover": "https://picsum.photos/id/32/200",
+      "release_date": "2018-09-14",
+      "description": "Revolutionizing the rhythm scene."
+    },
+    {
+      "id": "13",
+      "artistId": 5,
+      "title": "Sound of Rebellion",
+      "cover": "https://picsum.photos/id/33/200",
+      "release_date": "2019-11-11",
+      "description": "An anthem for the rebellious soul."
+    },
+    {
+      "id": "14",
+      "artistId": 5,
+      "title": "Pulse",
+      "cover": "https://picsum.photos/id/34/200",
+      "release_date": "2020-02-20",
+      "description": "Heartbeats and bass drops."
+    },
+    {
+      "id": "15",
+      "artistId": 5,
+      "title": "Unchained",
+      "cover": "https://picsum.photos/id/35/200",
+      "release_date": "2021-07-07",
+      "description": "Breaking free with every beat."
+    },
+    {
+      "id": "16",
+      "artistId": 6,
+      "title": "Mystic Rhythms",
+      "cover": "https://picsum.photos/id/36/200",
+      "release_date": "2022-03-03",
+      "description": "Enchanting tracks with mystical vibes."
+    },
+    {
+      "id": "17",
+      "artistId": 6,
+      "title": "Enchanted Echoes",
+      "cover": "https://picsum.photos/id/37/200",
+      "release_date": "2023-08-15",
+      "description": "Echoes that captivate the spirit."
+    },
+    {
+      "id": "18",
+      "artistId": 7,
+      "title": "Colorful Chords",
+      "cover": "https://picsum.photos/id/38/200",
+      "release_date": "2020-04-22",
+      "description": "Melodies bursting with vibrant hues."
+    },
+    {
+      "id": "19",
+      "artistId": 7,
+      "title": "Spectrum",
+      "cover": "https://picsum.photos/id/39/200",
+      "release_date": "2021-01-17",
+      "description": "A range of tones and emotions."
+    },
+    {
+      "id": "20",
+      "artistId": 7,
+      "title": "Harmony",
+      "cover": "https://picsum.photos/id/30/200",
+      "release_date": "2022-11-09",
+      "description": "Perfectly balanced harmonies."
+    },
+    {
+      "id": "21",
+      "artistId": 8,
+      "title": "Retro Revival",
+      "cover": "https://picsum.photos/id/31/200",
+      "release_date": "2016-08-08",
+      "description": "Bringing back classic tunes."
+    },
+    {
+      "id": "22",
+      "artistId": 8,
+      "title": "Golden Era",
+      "cover": "https://picsum.photos/id/32/200",
+      "release_date": "2017-12-12",
+      "description": "Timeless hits from the past."
+    },
+    {
+      "id": "23",
+      "artistId": 8,
+      "title": "Vintage Vibes",
+      "cover": "https://picsum.photos/id/33/200",
+      "release_date": "2019-05-05",
+      "description": "A collection of nostalgic tracks."
+    },
+    {
+      "id": "24",
+      "artistId": 8,
+      "title": "Classic Waves",
+      "cover": "https://picsum.photos/id/34/200",
+      "release_date": "2020-10-10",
+      "description": "Waves of classic sound."
+    },
+    {
+      "id": "25",
+      "artistId": 9,
+      "title": "Electric Pulse",
+      "cover": "https://picsum.photos/id/35/200",
+      "release_date": "2023-02-28",
+      "description": "Electrifying beats and modern soundscapes."
+    },
+    {
+      "id": "26",
+      "artistId": 10,
+      "title": "Building Crescendo",
+      "cover": "https://picsum.photos/id/36/200",
+      "release_date": "2022-06-06",
+      "description": "An upward surge of musical energy."
+    },
+    {
+      "id": "27",
+      "artistId": 10,
+      "title": "Finale",
+      "cover": "https://picsum.photos/id/37/200",
+      "release_date": "2023-09-01",
+      "description": "The grand finale of musical expressions."
+    }
+  ],
+  "tracks": [
+    {
+      "id": "1",
+      "albumId": 1,
+      "track_number": 1,
+      "title": "Ethereal Dawn - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "2",
+      "albumId": 1,
+      "track_number": 2,
+      "title": "Ethereal Dawn - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "3",
+      "albumId": 1,
+      "track_number": 3,
+      "title": "Ethereal Dawn - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "4",
+      "albumId": 1,
+      "track_number": 4,
+      "title": "Ethereal Dawn - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "5",
+      "albumId": 1,
+      "track_number": 5,
+      "title": "Ethereal Dawn - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "6",
+      "albumId": 1,
+      "track_number": 6,
+      "title": "Ethereal Dawn - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "7",
+      "albumId": 1,
+      "track_number": 7,
+      "title": "Ethereal Dawn - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "8",
+      "albumId": 1,
+      "track_number": 8,
+      "title": "Ethereal Dawn - Track 8",
+      "duration_ms": 208000,
+      "explicit": false
+    },
+    {
+      "id": "9",
+      "albumId": 1,
+      "track_number": 9,
+      "title": "Ethereal Dawn - Track 9",
+      "duration_ms": 209000,
+      "explicit": false
+    },
+    {
+      "id": "10",
+      "albumId": 1,
+      "track_number": 10,
+      "title": "Ethereal Dawn - Track 10",
+      "duration_ms": 210000,
+      "explicit": false
+    },
+    {
+      "id": "11",
+      "albumId": 2,
+      "track_number": 1,
+      "title": "Starlit Voyage - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "12",
+      "albumId": 2,
+      "track_number": 2,
+      "title": "Starlit Voyage - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "13",
+      "albumId": 2,
+      "track_number": 3,
+      "title": "Starlit Voyage - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "14",
+      "albumId": 2,
+      "track_number": 4,
+      "title": "Starlit Voyage - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "15",
+      "albumId": 2,
+      "track_number": 5,
+      "title": "Starlit Voyage - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "16",
+      "albumId": 2,
+      "track_number": 6,
+      "title": "Starlit Voyage - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "17",
+      "albumId": 2,
+      "track_number": 7,
+      "title": "Starlit Voyage - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "18",
+      "albumId": 2,
+      "track_number": 8,
+      "title": "Starlit Voyage - Track 8",
+      "duration_ms": 208000,
+      "explicit": false
+    },
+    {
+      "id": "19",
+      "albumId": 3,
+      "track_number": 1,
+      "title": "Aurora Echoes - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "20",
+      "albumId": 3,
+      "track_number": 2,
+      "title": "Aurora Echoes - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "21",
+      "albumId": 3,
+      "track_number": 3,
+      "title": "Aurora Echoes - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "22",
+      "albumId": 3,
+      "track_number": 4,
+      "title": "Aurora Echoes - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "23",
+      "albumId": 3,
+      "track_number": 5,
+      "title": "Aurora Echoes - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "24",
+      "albumId": 3,
+      "track_number": 6,
+      "title": "Aurora Echoes - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "25",
+      "albumId": 3,
+      "track_number": 7,
+      "title": "Aurora Echoes - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "26",
+      "albumId": 3,
+      "track_number": 8,
+      "title": "Aurora Echoes - Track 8",
+      "duration_ms": 208000,
+      "explicit": false
+    },
+    {
+      "id": "27",
+      "albumId": 3,
+      "track_number": 9,
+      "title": "Aurora Echoes - Track 9",
+      "duration_ms": 209000,
+      "explicit": false
+    },
+    {
+      "id": "28",
+      "albumId": 4,
+      "track_number": 1,
+      "title": "City Lights - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "29",
+      "albumId": 4,
+      "track_number": 2,
+      "title": "City Lights - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "30",
+      "albumId": 4,
+      "track_number": 3,
+      "title": "City Lights - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "31",
+      "albumId": 4,
+      "track_number": 4,
+      "title": "City Lights - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "32",
+      "albumId": 4,
+      "track_number": 5,
+      "title": "City Lights - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "33",
+      "albumId": 4,
+      "track_number": 6,
+      "title": "City Lights - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "34",
+      "albumId": 4,
+      "track_number": 7,
+      "title": "City Lights - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "35",
+      "albumId": 5,
+      "track_number": 1,
+      "title": "Midnight Groove - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "36",
+      "albumId": 5,
+      "track_number": 2,
+      "title": "Midnight Groove - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "37",
+      "albumId": 5,
+      "track_number": 3,
+      "title": "Midnight Groove - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "38",
+      "albumId": 5,
+      "track_number": 4,
+      "title": "Midnight Groove - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "39",
+      "albumId": 5,
+      "track_number": 5,
+      "title": "Midnight Groove - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "40",
+      "albumId": 5,
+      "track_number": 6,
+      "title": "Midnight Groove - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "41",
+      "albumId": 6,
+      "track_number": 1,
+      "title": "Reverberations - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "42",
+      "albumId": 6,
+      "track_number": 2,
+      "title": "Reverberations - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "43",
+      "albumId": 6,
+      "track_number": 3,
+      "title": "Reverberations - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "44",
+      "albumId": 6,
+      "track_number": 4,
+      "title": "Reverberations - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "45",
+      "albumId": 6,
+      "track_number": 5,
+      "title": "Reverberations - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "46",
+      "albumId": 6,
+      "track_number": 6,
+      "title": "Reverberations - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "47",
+      "albumId": 6,
+      "track_number": 7,
+      "title": "Reverberations - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "48",
+      "albumId": 6,
+      "track_number": 8,
+      "title": "Reverberations - Track 8",
+      "duration_ms": 208000,
+      "explicit": false
+    },
+    {
+      "id": "49",
+      "albumId": 6,
+      "track_number": 9,
+      "title": "Reverberations - Track 9",
+      "duration_ms": 209000,
+      "explicit": false
+    },
+    {
+      "id": "50",
+      "albumId": 6,
+      "track_number": 10,
+      "title": "Reverberations - Track 10",
+      "duration_ms": 210000,
+      "explicit": false
+    },
+    {
+      "id": "51",
+      "albumId": 7,
+      "track_number": 1,
+      "title": "Melodic Reflections - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "52",
+      "albumId": 7,
+      "track_number": 2,
+      "title": "Melodic Reflections - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "53",
+      "albumId": 7,
+      "track_number": 3,
+      "title": "Melodic Reflections - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "54",
+      "albumId": 7,
+      "track_number": 4,
+      "title": "Melodic Reflections - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "55",
+      "albumId": 7,
+      "track_number": 5,
+      "title": "Melodic Reflections - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "56",
+      "albumId": 8,
+      "track_number": 1,
+      "title": "Whispered Secrets - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "57",
+      "albumId": 8,
+      "track_number": 2,
+      "title": "Whispered Secrets - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "58",
+      "albumId": 8,
+      "track_number": 3,
+      "title": "Whispered Secrets - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "59",
+      "albumId": 8,
+      "track_number": 4,
+      "title": "Whispered Secrets - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "60",
+      "albumId": 8,
+      "track_number": 5,
+      "title": "Whispered Secrets - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "61",
+      "albumId": 8,
+      "track_number": 6,
+      "title": "Whispered Secrets - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "62",
+      "albumId": 8,
+      "track_number": 7,
+      "title": "Whispered Secrets - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "63",
+      "albumId": 9,
+      "track_number": 1,
+      "title": "Dreamscape - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "64",
+      "albumId": 9,
+      "track_number": 2,
+      "title": "Dreamscape - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "65",
+      "albumId": 9,
+      "track_number": 3,
+      "title": "Dreamscape - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "66",
+      "albumId": 9,
+      "track_number": 4,
+      "title": "Dreamscape - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "67",
+      "albumId": 9,
+      "track_number": 5,
+      "title": "Dreamscape - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "68",
+      "albumId": 9,
+      "track_number": 6,
+      "title": "Dreamscape - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "69",
+      "albumId": 9,
+      "track_number": 7,
+      "title": "Dreamscape - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "70",
+      "albumId": 9,
+      "track_number": 8,
+      "title": "Dreamscape - Track 8",
+      "duration_ms": 208000,
+      "explicit": false
+    },
+    {
+      "id": "71",
+      "albumId": 10,
+      "track_number": 1,
+      "title": "Strings Attached - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "72",
+      "albumId": 10,
+      "track_number": 2,
+      "title": "Strings Attached - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "73",
+      "albumId": 10,
+      "track_number": 3,
+      "title": "Strings Attached - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "74",
+      "albumId": 10,
+      "track_number": 4,
+      "title": "Strings Attached - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "75",
+      "albumId": 11,
+      "track_number": 1,
+      "title": "Rebel Rhythms - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "76",
+      "albumId": 11,
+      "track_number": 2,
+      "title": "Rebel Rhythms - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "77",
+      "albumId": 11,
+      "track_number": 3,
+      "title": "Rebel Rhythms - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "78",
+      "albumId": 11,
+      "track_number": 4,
+      "title": "Rebel Rhythms - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "79",
+      "albumId": 11,
+      "track_number": 5,
+      "title": "Rebel Rhythms - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "80",
+      "albumId": 11,
+      "track_number": 6,
+      "title": "Rebel Rhythms - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "81",
+      "albumId": 11,
+      "track_number": 7,
+      "title": "Rebel Rhythms - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "82",
+      "albumId": 11,
+      "track_number": 8,
+      "title": "Rebel Rhythms - Track 8",
+      "duration_ms": 208000,
+      "explicit": false
+    },
+    {
+      "id": "83",
+      "albumId": 11,
+      "track_number": 9,
+      "title": "Rebel Rhythms - Track 9",
+      "duration_ms": 209000,
+      "explicit": false
+    },
+    {
+      "id": "84",
+      "albumId": 11,
+      "track_number": 10,
+      "title": "Rebel Rhythms - Track 10",
+      "duration_ms": 210000,
+      "explicit": false
+    },
+    {
+      "id": "85",
+      "albumId": 12,
+      "track_number": 1,
+      "title": "Beat Revolution - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "86",
+      "albumId": 12,
+      "track_number": 2,
+      "title": "Beat Revolution - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "87",
+      "albumId": 12,
+      "track_number": 3,
+      "title": "Beat Revolution - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "88",
+      "albumId": 12,
+      "track_number": 4,
+      "title": "Beat Revolution - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "89",
+      "albumId": 12,
+      "track_number": 5,
+      "title": "Beat Revolution - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "90",
+      "albumId": 12,
+      "track_number": 6,
+      "title": "Beat Revolution - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "91",
+      "albumId": 12,
+      "track_number": 7,
+      "title": "Beat Revolution - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "92",
+      "albumId": 12,
+      "track_number": 8,
+      "title": "Beat Revolution - Track 8",
+      "duration_ms": 208000,
+      "explicit": false
+    },
+    {
+      "id": "93",
+      "albumId": 13,
+      "track_number": 1,
+      "title": "Sound of Rebellion - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "94",
+      "albumId": 13,
+      "track_number": 2,
+      "title": "Sound of Rebellion - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "95",
+      "albumId": 13,
+      "track_number": 3,
+      "title": "Sound of Rebellion - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "96",
+      "albumId": 13,
+      "track_number": 4,
+      "title": "Sound of Rebellion - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "97",
+      "albumId": 13,
+      "track_number": 5,
+      "title": "Sound of Rebellion - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "98",
+      "albumId": 13,
+      "track_number": 6,
+      "title": "Sound of Rebellion - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "99",
+      "albumId": 13,
+      "track_number": 7,
+      "title": "Sound of Rebellion - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "100",
+      "albumId": 13,
+      "track_number": 8,
+      "title": "Sound of Rebellion - Track 8",
+      "duration_ms": 208000,
+      "explicit": false
+    },
+    {
+      "id": "101",
+      "albumId": 13,
+      "track_number": 9,
+      "title": "Sound of Rebellion - Track 9",
+      "duration_ms": 209000,
+      "explicit": false
+    },
+    {
+      "id": "102",
+      "albumId": 14,
+      "track_number": 1,
+      "title": "Pulse - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "103",
+      "albumId": 14,
+      "track_number": 2,
+      "title": "Pulse - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "104",
+      "albumId": 14,
+      "track_number": 3,
+      "title": "Pulse - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "105",
+      "albumId": 14,
+      "track_number": 4,
+      "title": "Pulse - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "106",
+      "albumId": 14,
+      "track_number": 5,
+      "title": "Pulse - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "107",
+      "albumId": 14,
+      "track_number": 6,
+      "title": "Pulse - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "108",
+      "albumId": 14,
+      "track_number": 7,
+      "title": "Pulse - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "109",
+      "albumId": 15,
+      "track_number": 1,
+      "title": "Unchained - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "110",
+      "albumId": 15,
+      "track_number": 2,
+      "title": "Unchained - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "111",
+      "albumId": 15,
+      "track_number": 3,
+      "title": "Unchained - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "112",
+      "albumId": 15,
+      "track_number": 4,
+      "title": "Unchained - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "113",
+      "albumId": 15,
+      "track_number": 5,
+      "title": "Unchained - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "114",
+      "albumId": 15,
+      "track_number": 6,
+      "title": "Unchained - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "115",
+      "albumId": 16,
+      "track_number": 1,
+      "title": "Mystic Rhythms - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "116",
+      "albumId": 16,
+      "track_number": 2,
+      "title": "Mystic Rhythms - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "117",
+      "albumId": 16,
+      "track_number": 3,
+      "title": "Mystic Rhythms - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "118",
+      "albumId": 16,
+      "track_number": 4,
+      "title": "Mystic Rhythms - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "119",
+      "albumId": 16,
+      "track_number": 5,
+      "title": "Mystic Rhythms - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "120",
+      "albumId": 17,
+      "track_number": 1,
+      "title": "Enchanted Echoes - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "121",
+      "albumId": 17,
+      "track_number": 2,
+      "title": "Enchanted Echoes - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "122",
+      "albumId": 17,
+      "track_number": 3,
+      "title": "Enchanted Echoes - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "123",
+      "albumId": 17,
+      "track_number": 4,
+      "title": "Enchanted Echoes - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "124",
+      "albumId": 17,
+      "track_number": 5,
+      "title": "Enchanted Echoes - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "125",
+      "albumId": 17,
+      "track_number": 6,
+      "title": "Enchanted Echoes - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "126",
+      "albumId": 17,
+      "track_number": 7,
+      "title": "Enchanted Echoes - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "127",
+      "albumId": 18,
+      "track_number": 1,
+      "title": "Colorful Chords - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "128",
+      "albumId": 18,
+      "track_number": 2,
+      "title": "Colorful Chords - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "129",
+      "albumId": 18,
+      "track_number": 3,
+      "title": "Colorful Chords - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "130",
+      "albumId": 18,
+      "track_number": 4,
+      "title": "Colorful Chords - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "131",
+      "albumId": 18,
+      "track_number": 5,
+      "title": "Colorful Chords - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "132",
+      "albumId": 18,
+      "track_number": 6,
+      "title": "Colorful Chords - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "133",
+      "albumId": 18,
+      "track_number": 7,
+      "title": "Colorful Chords - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "134",
+      "albumId": 18,
+      "track_number": 8,
+      "title": "Colorful Chords - Track 8",
+      "duration_ms": 208000,
+      "explicit": false
+    },
+    {
+      "id": "135",
+      "albumId": 19,
+      "track_number": 1,
+      "title": "Spectrum - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "136",
+      "albumId": 19,
+      "track_number": 2,
+      "title": "Spectrum - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "137",
+      "albumId": 19,
+      "track_number": 3,
+      "title": "Spectrum - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "138",
+      "albumId": 19,
+      "track_number": 4,
+      "title": "Spectrum - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "139",
+      "albumId": 19,
+      "track_number": 5,
+      "title": "Spectrum - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "140",
+      "albumId": 19,
+      "track_number": 6,
+      "title": "Spectrum - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "141",
+      "albumId": 19,
+      "track_number": 7,
+      "title": "Spectrum - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "142",
+      "albumId": 20,
+      "track_number": 1,
+      "title": "Harmony - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "143",
+      "albumId": 20,
+      "track_number": 2,
+      "title": "Harmony - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "144",
+      "albumId": 20,
+      "track_number": 3,
+      "title": "Harmony - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "145",
+      "albumId": 20,
+      "track_number": 4,
+      "title": "Harmony - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "146",
+      "albumId": 20,
+      "track_number": 5,
+      "title": "Harmony - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "147",
+      "albumId": 20,
+      "track_number": 6,
+      "title": "Harmony - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "148",
+      "albumId": 21,
+      "track_number": 1,
+      "title": "Retro Revival - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "149",
+      "albumId": 21,
+      "track_number": 2,
+      "title": "Retro Revival - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "150",
+      "albumId": 21,
+      "track_number": 3,
+      "title": "Retro Revival - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "151",
+      "albumId": 21,
+      "track_number": 4,
+      "title": "Retro Revival - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "152",
+      "albumId": 21,
+      "track_number": 5,
+      "title": "Retro Revival - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "153",
+      "albumId": 21,
+      "track_number": 6,
+      "title": "Retro Revival - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "154",
+      "albumId": 21,
+      "track_number": 7,
+      "title": "Retro Revival - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "155",
+      "albumId": 21,
+      "track_number": 8,
+      "title": "Retro Revival - Track 8",
+      "duration_ms": 208000,
+      "explicit": false
+    },
+    {
+      "id": "156",
+      "albumId": 21,
+      "track_number": 9,
+      "title": "Retro Revival - Track 9",
+      "duration_ms": 209000,
+      "explicit": false
+    },
+    {
+      "id": "157",
+      "albumId": 21,
+      "track_number": 10,
+      "title": "Retro Revival - Track 10",
+      "duration_ms": 210000,
+      "explicit": false
+    },
+    {
+      "id": "158",
+      "albumId": 22,
+      "track_number": 1,
+      "title": "Golden Era - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "159",
+      "albumId": 22,
+      "track_number": 2,
+      "title": "Golden Era - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "160",
+      "albumId": 22,
+      "track_number": 3,
+      "title": "Golden Era - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "161",
+      "albumId": 22,
+      "track_number": 4,
+      "title": "Golden Era - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "162",
+      "albumId": 22,
+      "track_number": 5,
+      "title": "Golden Era - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "163",
+      "albumId": 22,
+      "track_number": 6,
+      "title": "Golden Era - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "164",
+      "albumId": 22,
+      "track_number": 7,
+      "title": "Golden Era - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "165",
+      "albumId": 22,
+      "track_number": 8,
+      "title": "Golden Era - Track 8",
+      "duration_ms": 208000,
+      "explicit": false
+    },
+    {
+      "id": "166",
+      "albumId": 23,
+      "track_number": 1,
+      "title": "Vintage Vibes - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "167",
+      "albumId": 23,
+      "track_number": 2,
+      "title": "Vintage Vibes - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "168",
+      "albumId": 23,
+      "track_number": 3,
+      "title": "Vintage Vibes - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "169",
+      "albumId": 23,
+      "track_number": 4,
+      "title": "Vintage Vibes - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "170",
+      "albumId": 23,
+      "track_number": 5,
+      "title": "Vintage Vibes - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "171",
+      "albumId": 23,
+      "track_number": 6,
+      "title": "Vintage Vibes - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "172",
+      "albumId": 23,
+      "track_number": 7,
+      "title": "Vintage Vibes - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "173",
+      "albumId": 23,
+      "track_number": 8,
+      "title": "Vintage Vibes - Track 8",
+      "duration_ms": 208000,
+      "explicit": false
+    },
+    {
+      "id": "174",
+      "albumId": 23,
+      "track_number": 9,
+      "title": "Vintage Vibes - Track 9",
+      "duration_ms": 209000,
+      "explicit": false
+    },
+    {
+      "id": "175",
+      "albumId": 24,
+      "track_number": 1,
+      "title": "Classic Waves - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "176",
+      "albumId": 24,
+      "track_number": 2,
+      "title": "Classic Waves - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "177",
+      "albumId": 24,
+      "track_number": 3,
+      "title": "Classic Waves - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "178",
+      "albumId": 24,
+      "track_number": 4,
+      "title": "Classic Waves - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "179",
+      "albumId": 24,
+      "track_number": 5,
+      "title": "Classic Waves - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "180",
+      "albumId": 24,
+      "track_number": 6,
+      "title": "Classic Waves - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    },
+    {
+      "id": "181",
+      "albumId": 24,
+      "track_number": 7,
+      "title": "Classic Waves - Track 7",
+      "duration_ms": 207000,
+      "explicit": false
+    },
+    {
+      "id": "182",
+      "albumId": 25,
+      "track_number": 1,
+      "title": "Electric Pulse - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "183",
+      "albumId": 25,
+      "track_number": 2,
+      "title": "Electric Pulse - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "184",
+      "albumId": 25,
+      "track_number": 3,
+      "title": "Electric Pulse - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "185",
+      "albumId": 25,
+      "track_number": 4,
+      "title": "Electric Pulse - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "186",
+      "albumId": 26,
+      "track_number": 1,
+      "title": "Building Crescendo - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "187",
+      "albumId": 26,
+      "track_number": 2,
+      "title": "Building Crescendo - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "188",
+      "albumId": 26,
+      "track_number": 3,
+      "title": "Building Crescendo - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "189",
+      "albumId": 26,
+      "track_number": 4,
+      "title": "Building Crescendo - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "190",
+      "albumId": 26,
+      "track_number": 5,
+      "title": "Building Crescendo - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "191",
+      "albumId": 27,
+      "track_number": 1,
+      "title": "Finale - Track 1",
+      "duration_ms": 201000,
+      "explicit": false
+    },
+    {
+      "id": "192",
+      "albumId": 27,
+      "track_number": 2,
+      "title": "Finale - Track 2",
+      "duration_ms": 202000,
+      "explicit": false
+    },
+    {
+      "id": "193",
+      "albumId": 27,
+      "track_number": 3,
+      "title": "Finale - Track 3",
+      "duration_ms": 203000,
+      "explicit": false
+    },
+    {
+      "id": "194",
+      "albumId": 27,
+      "track_number": 4,
+      "title": "Finale - Track 4",
+      "duration_ms": 204000,
+      "explicit": false
+    },
+    {
+      "id": "195",
+      "albumId": 27,
+      "track_number": 5,
+      "title": "Finale - Track 5",
+      "duration_ms": 205000,
+      "explicit": false
+    },
+    {
+      "id": "196",
+      "albumId": 27,
+      "track_number": 6,
+      "title": "Finale - Track 6",
+      "duration_ms": 206000,
+      "explicit": false
+    }
+  ],
+
+  "recentlyPlayed": [
+    {
+      "track": {
+        "id": "3",
+        "title": "Ethereal Dawn - Track 3",
+        "duration_ms": 203000,
+        "explicit": false,
+        "album": {
+          "id": "1",
+          "title": "Ethereal Dawn",
+          "cover": "https://picsum.photos/id/41/200",
+          "release_date": "2021-04-15"
+        },
+        "artist": {
+          "id": "1",
+          "name": "Aurora Skies",
+          "image": "https://picsum.photos/200"
+        }
+      },
+      "played_at": "2025-03-18T07:00:00Z"
+    },
+    {
+      "track": {
+        "id": "14",
+        "title": "Starlit Voyage - Track 4",
+        "duration_ms": 204000,
+        "explicit": false,
+        "album": {
+          "id": "2",
+          "title": "Starlit Voyage",
+          "cover": "https://picsum.photos/id/42/200",
+          "release_date": "2022-08-22"
+        },
+        "artist": {
+          "id": "1",
+          "name": "Aurora Skies",
+          "image": "https://picsum.photos/200"
+        }
+      },
+      "played_at": "2025-03-18T06:50:00Z"
+    },
+    {
+      "track": {
+        "id": "21",
+        "title": "Aurora Echoes - Track 1",
+        "duration_ms": 201000,
+        "explicit": false,
+        "album": {
+          "id": "3",
+          "title": "Aurora Echoes",
+          "cover": "https://picsum.photos/id/43/200",
+          "release_date": "2023-11-05"
+        },
+        "artist": {
+          "id": "1",
+          "name": "Aurora Skies",
+          "image": "https://picsum.photos/200"
+        }
+      },
+      "played_at": "2025-03-18T06:40:00Z"
+    },
+    {
+      "track": {
+        "id": "29",
+        "title": "City Lights - Track 2",
+        "duration_ms": 202000,
+        "explicit": false,
+        "album": {
+          "id": "4",
+          "title": "City Lights",
+          "cover": "https://picsum.photos/id/44/200",
+          "release_date": "2020-07-10"
+        },
+        "artist": {
+          "id": "2",
+          "name": "Neon Nights",
+          "image": "https://picsum.photos/200"
+        }
+      },
+      "played_at": "2025-03-18T06:30:00Z"
+    },
+    {
+      "track": {
+        "id": "37",
+        "title": "Midnight Groove - Track 3",
+        "duration_ms": 203000,
+        "explicit": false,
+        "album": {
+          "id": "5",
+          "title": "Midnight Groove",
+          "cover": "https://picsum.photos/id/45/200",
+          "release_date": "2021-12-01"
+        },
+        "artist": {
+          "id": "2",
+          "name": "Neon Nights",
+          "image": "https://picsum.photos/200"
+        }
+      },
+      "played_at": "2025-03-18T06:20:00Z"
+    },
+    {
+      "track": {
+        "id": "43",
+        "title": "Reverberations - Track 3",
+        "duration_ms": 203000,
+        "explicit": false,
+        "album": {
+          "id": "6",
+          "title": "Reverberations",
+          "cover": "https://picsum.photos/id/46/200",
+          "release_date": "2019-03-20"
+        },
+        "artist": {
+          "id": "3",
+          "name": "Echoed Dreams",
+          "image": "https://picsum.photos/200"
+        }
+      },
+      "played_at": "2025-03-18T06:10:00Z"
+    },
+    {
+      "track": {
+        "id": "53",
+        "title": "Melodic Reflections - Track 3",
+        "duration_ms": 203000,
+        "explicit": false,
+        "album": {
+          "id": "7",
+          "title": "Melodic Reflections",
+          "cover": "https://picsum.photos/id/47/200",
+          "release_date": "2020-10-05"
+        },
+        "artist": {
+          "id": "3",
+          "name": "Echoed Dreams",
+          "image": "https://picsum.photos/200"
+        }
+      },
+      "played_at": "2025-03-18T06:00:00Z"
+    },
+    {
+      "track": {
+        "id": "61",
+        "title": "Whispered Secrets - Track 6",
+        "duration_ms": 206000,
+        "explicit": false,
+        "album": {
+          "id": "8",
+          "title": "Whispered Secrets",
+          "cover": "https://picsum.photos/id/48/200",
+          "release_date": "2021-06-18"
+        },
+        "artist": {
+          "id": "3",
+          "name": "Echoed Dreams",
+          "image": "https://picsum.photos/200"
+        }
+      },
+      "played_at": "2025-03-18T05:50:00Z"
+    }
+  ],
+  "dayBased": [
+    {
+      "track": {
+        "id": "71",
+        "title": "Strings Attached - Track 1",
+        "duration_ms": 201000,
+        "explicit": false,
+        "album": {
+          "id": "10",
+          "title": "Strings Attached",
+          "cover": "https://picsum.photos/id/50/200",
+          "release_date": "2018-11-30"
+        },
+        "artist": {
+          "id": "4",
+          "name": "Soulful Strings",
+          "image": "https://picsum.photos/200"
+        }
+      }
+    },
+    {
+      "track": {
+        "id": "77",
+        "title": "Rebel Rhythms - Track 3",
+        "duration_ms": 203000,
+        "explicit": false,
+        "album": {
+          "id": "11",
+          "title": "Rebel Rhythms",
+          "cover": "https://picsum.photos/id/51/200",
+          "release_date": "2017-05-25"
+        },
+        "artist": {
+          "id": "5",
+          "name": "Rhythm Rebels",
+          "image": "https://picsum.photos/200"
+        }
+      }
+    },
+    {
+      "track": {
+        "id": "85",
+        "title": "Beat Revolution - Track 1",
+        "duration_ms": 201000,
+        "explicit": false,
+        "album": {
+          "id": "12",
+          "title": "Beat Revolution",
+          "cover": "https://picsum.photos/id/52/200",
+          "release_date": "2018-09-14"
+        },
+        "artist": {
+          "id": "5",
+          "name": "Rhythm Rebels",
+          "image": "https://picsum.photos/200"
+        }
+      }
+    },
+    {
+      "track": {
+        "id": "93",
+        "title": "Sound of Rebellion - Track 1",
+        "duration_ms": 201000,
+        "explicit": false,
+        "album": {
+          "id": "13",
+          "title": "Sound of Rebellion",
+          "cover": "https://picsum.photos/id/53/200",
+          "release_date": "2019-11-11"
+        },
+        "artist": {
+          "id": "5",
+          "name": "Rhythm Rebels",
+          "image": "https://picsum.photos/200"
+        }
+      }
+    },
+    {
+      "track": {
+        "id": "102",
+        "title": "Pulse - Track 1",
+        "duration_ms": 201000,
+        "explicit": false,
+        "album": {
+          "id": "14",
+          "title": "Pulse",
+          "cover": "https://picsum.photos/id/54/200",
+          "release_date": "2020-02-20"
+        },
+        "artist": {
+          "id": "5",
+          "name": "Rhythm Rebels",
+          "image": "https://picsum.photos/200"
+        }
+      }
+    },
+    {
+      "track": {
+        "id": "109",
+        "title": "Unchained - Track 1",
+        "duration_ms": 201000,
+        "explicit": false,
+        "album": {
+          "id": "15",
+          "title": "Unchained",
+          "cover": "https://picsum.photos/id/55/200",
+          "release_date": "2021-07-07"
+        },
+        "artist": {
+          "id": "5",
+          "name": "Rhythm Rebels",
+          "image": "https://picsum.photos/200"
+        }
+      }
+    },
+    {
+      "track": {
+        "id": "115",
+        "title": "Mystic Rhythms - Track 1",
+        "duration_ms": 201000,
+        "explicit": false,
+        "album": {
+          "id": "16",
+          "title": "Mystic Rhythms",
+          "cover": "https://picsum.photos/id/56/200",
+          "release_date": "2022-03-03"
+        },
+        "artist": {
+          "id": "6",
+          "name": "Mystic Melodies",
+          "image": "https://picsum.photos/200"
+        }
+      }
+    },
+    {
+      "track": {
+        "id": "120",
+        "title": "Enchanted Echoes - Track 1",
+        "duration_ms": 201000,
+        "explicit": false,
+        "album": {
+          "id": "17",
+          "title": "Enchanted Echoes",
+          "cover": "https://picsum.photos/id/57/200",
+          "release_date": "2023-08-15"
+        },
+        "artist": {
+          "id": "6",
+          "name": "Mystic Melodies",
+          "image": "https://picsum.photos/200"
+        }
+      }
+    }
+  ],
+  "oldFavorites": [
+    {
+      "track": {
+        "id": "148",
+        "title": "Retro Revival - Track 1",
+        "duration_ms": 201000,
+        "explicit": false,
+        "album": {
+          "id": "21",
+          "title": "Retro Revival",
+          "cover": "https://picsum.photos/id/21/200",
+          "release_date": "2016-08-08"
+        },
+        "artist": {
+          "id": "8",
+          "name": "Vintage Vibes",
+          "image": "https://picsum.photos/200"
+        }
+      },
+      "last_played": "2024-01-15T12:00:00Z"
+    },
+    {
+      "track": {
+        "id": "154",
+        "title": "Retro Revival - Track 7",
+        "duration_ms": 207000,
+        "explicit": false,
+        "album": {
+          "id": "21",
+          "title": "Retro Revival",
+          "cover": "https://picsum.photos/id/21/200",
+          "release_date": "2016-08-08"
+        },
+        "artist": {
+          "id": "8",
+          "name": "Vintage Vibes",
+          "image": "https://picsum.photos/200"
+        }
+      },
+      "last_played": "2024-01-10T15:30:00Z"
+    },
+    {
+      "track": {
+        "id": "158",
+        "title": "Golden Era - Track 1",
+        "duration_ms": 201000,
+        "explicit": false,
+        "album": {
+          "id": "22",
+          "title": "Golden Era",
+          "cover": "https://picsum.photos/id/22/200",
+          "release_date": "2017-12-12"
+        },
+        "artist": {
+          "id": "8",
+          "name": "Vintage Vibes",
+          "image": "https://picsum.photos/200"
+        }
+      },
+      "last_played": "2024-01-05T10:20:00Z"
+    },
+    {
+      "track": {
+        "id": "161",
+        "title": "Golden Era - Track 4",
+        "duration_ms": 204000,
+        "explicit": false,
+        "album": {
+          "id": "22",
+          "title": "Golden Era",
+          "cover": "https://picsum.photos/id/22/200",
+          "release_date": "2017-12-12"
+        },
+        "artist": {
+          "id": "8",
+          "name": "Vintage Vibes",
+          "image": "https://picsum.photos/200"
+        }
+      },
+      "last_played": "2024-01-03T09:15:00Z"
+    },
+    {
+      "track": {
+        "id": "166",
+        "title": "Vintage Vibes - Track 1",
+        "duration_ms": 201000,
+        "explicit": false,
+        "album": {
+          "id": "23",
+          "title": "Vintage Vibes",
+          "cover": "https://picsum.photos/id/23/200",
+          "release_date": "2019-05-05"
+        },
+        "artist": {
+          "id": "8",
+          "name": "Vintage Vibes",
+          "image": "https://picsum.photos/200"
+        }
+      },
+      "last_played": "2024-01-01T08:00:00Z"
+    },
+    {
+      "track": {
+        "id": "169",
+        "title": "Vintage Vibes - Track 4",
+        "duration_ms": 204000,
+        "explicit": false,
+        "album": {
+          "id": "23",
+          "title": "Vintage Vibes",
+          "cover": "https://picsum.photos/id/23/200",
+          "release_date": "2019-05-05"
+        },
+        "artist": {
+          "id": "8",
+          "name": "Vintage Vibes",
+          "image": "https://picsum.photos/200"
+        }
+      },
+      "last_played": "2023-12-30T14:45:00Z"
+    },
+    {
+      "track": {
+        "id": "175",
+        "title": "Classic Waves - Track 1",
+        "duration_ms": 201000,
+        "explicit": false,
+        "album": {
+          "id": "24",
+          "title": "Classic Waves",
+          "cover": "https://picsum.photos/id/24/200",
+          "release_date": "2020-10-10"
+        },
+        "artist": {
+          "id": "8",
+          "name": "Vintage Vibes",
+          "image": "https://picsum.photos/200"
+        }
+      },
+      "last_played": "2023-12-25T18:30:00Z"
+    },
+    {
+      "track": {
+        "id": "179",
+        "title": "Classic Waves - Track 5",
+        "duration_ms": 205000,
+        "explicit": false,
+        "album": {
+          "id": "24",
+          "title": "Classic Waves",
+          "cover": "https://picsum.photos/id/24/200",
+          "release_date": "2020-10-10"
+        },
+        "artist": {
+          "id": "8",
+          "name": "Vintage Vibes",
+          "image": "https://picsum.photos/200"
+        }
+      },
+      "last_played": "2023-12-20T16:00:00Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "label": "Made for You",
+      "bgColor": "#FF5733",
+      "albumId": 3
+    },
+    {
+      "id": "2",
+      "label": "New Releases",
+      "bgColor": "#33FFCE",
+      "albumId": 7
+    },
+    {
+      "id": "3",
+      "label": "New Year's",
+      "bgColor": "#FFD700",
+      "albumId": 10
+    },
+    {
+      "id": "4",
+      "label": "Chill Hits",
+      "bgColor": "#8A2BE2",
+      "albumId": 4
+    },
+    {
+      "id": "5",
+      "label": "Workout",
+      "bgColor": "#DC143C",
+      "albumId": 5
+    },
+    {
+      "id": "6",
+      "label": "Party",
+      "bgColor": "#00CED1",
+      "albumId": 6
+    },
+    {
+      "id": "7",
+      "label": "Top Hits",
+      "bgColor": "#FF4500",
+      "albumId": 11
+    },
+    {
+      "id": "8",
+      "label": "Discover Weekly",
+      "bgColor": "#32CD32",
+      "albumId": 12
+    },
+    {
+      "id": "9",
+      "label": "Throwback",
+      "bgColor": "#1E90FF",
+      "albumId": 13
+    },
+    {
+      "id": "10",
+      "label": "Indie Vibes",
+      "bgColor": "#FF1493",
+      "albumId": 14
+    },
+    {
+      "id": "11",
+      "label": "Rock Classics",
+      "bgColor": "#2F4F4F",
+      "albumId": 15
+    },
+    {
+      "id": "12",
+      "label": "Jazz Essentials",
+      "bgColor": "#8B0000",
+      "albumId": 16
+    },
+    {
+      "id": "13",
+      "label": "Mood Booster",
+      "bgColor": "#FF8C00",
+      "albumId": 17
+    },
+    {
+      "id": "14",
+      "label": "Focus",
+      "bgColor": "#4682B4",
+      "albumId": 18
+    },
+    {
+      "id": "15",
+      "label": "Study",
+      "bgColor": "#6A5ACD",
+      "albumId": 19
+    },
+    {
+      "id": "16",
+      "label": "Summer Vibes",
+      "bgColor": "#FFDAB9",
+      "albumId": 20
+    },
+    {
+      "id": "17",
+      "label": "Acoustic",
+      "bgColor": "#D2691E",
+      "albumId": 21
+    },
+    {
+      "id": "18",
+      "label": "Latin",
+      "bgColor": "#FF6347",
+      "albumId": 22
+    },
+    {
+      "id": "19",
+      "label": "Hip-Hop",
+      "bgColor": "#9932CC",
+      "albumId": 23
+    },
+    {
+      "id": "20",
+      "label": "Classics",
+      "bgColor": "#708090",
+      "albumId": 24
+    }
+  ]
+}

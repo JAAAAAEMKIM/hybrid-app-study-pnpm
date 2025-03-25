@@ -10,7 +10,12 @@
     "newArchEnabled": true,
     "ios": {
       "bundleIdentifier": "my.bundle.id",
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"],
+        "NSCameraUsageDescription": "이 앱은 카메라를 사용합니다",
+        "NSMicrophoneUsageDescription": "이 앱은 마이크를 사용합니다"
+      }
     },
     "android": {
       "adaptiveIcon": {
