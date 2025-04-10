@@ -5,8 +5,9 @@
   "scripts": {
     "start": "expo start",
     "start:tunnel": "expo start --tunnel",
+    "start:device": "expo run:ios --device",
     "reset-project": "node ./scripts/reset-project.js",
-    "android": "expo start --android",
+    "android": "expo run:android",
     "ios": "expo start -c --ios --tunnel",
     "web": "expo start --web",
     "test": "jest --watchAll",
@@ -26,6 +27,7 @@
     "expo": "~52.0.36",
     "expo-blur": "~14.0.3",
     "expo-constants": "~17.0.7",
+    "expo-dev-client": "~5.0.19",
     "expo-font": "~13.0.4",
     "expo-haptics": "~14.0.1",
     "expo-linking": "~7.0.5",

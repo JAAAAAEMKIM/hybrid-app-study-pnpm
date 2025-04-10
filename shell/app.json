@@ -9,7 +9,7 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "bundleIdentifier": "my.bundle.id",
+      "bundleIdentifier": "my.bundle.idfuckyo",
       "supportsTablet": true,
       "infoPlist": {
         "UIBackgroundModes": ["audio"],
