@@ -6,7 +6,5 @@ export const signin = async () => {
     password: 'nhn!@#123',
   });
 
-  console.log(data);
-
   return data;
 };

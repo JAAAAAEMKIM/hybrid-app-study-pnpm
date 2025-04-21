@@ -1,9 +1,8 @@
-import { fetchMusicById } from '@/apis/fetchMusicById';
+import { fetchAlbums } from '@/apis/fetchAlbums';
+import { Album } from '@/types';
 import UploadClient from '@/app/create/upload/client';
 
-export default async function Page() {
-  const musicId = 'id';
-  const data = musicId ? await fetchMusicById(musicId) : null;
-
-  return <UploadClient data={data} />;
+export default async function Create() {
+  const albums: Album[] = await fetchAlbums();
+  return <UploadClient albums={albums} />;
 }

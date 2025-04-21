@@ -3,13 +3,14 @@
 import { Dialog } from '@/components/ui/dialog';
 import { useState } from 'react';
 import MusicUploadForm from './MusicUploadForm';
-import { Music } from '@/types';
+import { Music, Album } from '@/types';
 
 interface UploadModalProps {
   isOpen: boolean;
   onClose: () => void;
   onSuccess: () => void;
   musicToEdit?: Music | null;
+  albums: Album[];
 }
 
 const UploadModal = ({
@@ -17,6 +18,7 @@ const UploadModal = ({
   onClose,
   onSuccess,
   musicToEdit,
+  albums,
 }: UploadModalProps) => {
   return (
     <Dialog open={isOpen} onOpenChange={(open) => !open && onClose()}>
@@ -31,6 +33,7 @@ const UploadModal = ({
               onSuccess={onSuccess}
               onCancel={onClose}
               initialData={musicToEdit}
+              albums={albums}
             />
           </div>
         </div>

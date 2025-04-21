@@ -12,6 +12,7 @@ import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Portal } from '@/components/Portal';
+import { useRouter } from 'next/navigation';
 
 interface MusicItemProps {
   music: Music;
@@ -70,10 +71,9 @@ const MusicItem = ({ music, onEdit, onDelete, onPlay }: MusicItemProps) => {
     onPlay(music);
   };
 
+  const router = useRouter();
   const handleEdit = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    onEdit(music);
-    setIsMenuOpen(false);
+    router.push(`/create/upload/${music.id}`);
   };
 
   const handleDelete = (e: React.MouseEvent) => {
