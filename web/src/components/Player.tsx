@@ -77,9 +77,7 @@ const Player = () => {
         <audio
           className="hidden"
           ref={audioRef}
-          src={`http://localhost:3001/assets/${
-            Number(ctx.currentSong.id) % 9
-          }.mp3`}
+          src={ctx.currentSong.src}
           controls
           onEnded={() => {
             ctx.selectMusic(null);

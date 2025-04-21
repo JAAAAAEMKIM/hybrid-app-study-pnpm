@@ -1,3 +1,5 @@
+import { fetchAlbums } from '@/apis/fetchAlbums';
+import { fetchCategories } from '@/apis/fetchCategories';
 import CameraButton from '@/app/search/CameraButton';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
@@ -5,11 +7,10 @@ import { Input } from '@/components/ui/Input';
 import Image from 'next/image';
 
 export default async function Search() {
-  const data = await Promise.all([
-    fetch('http://localhost:3001/albums'),
-    fetch('http://localhost:3001/categories'),
+  const [albums, categories] = await Promise.all([
+    fetchAlbums(),
+    fetchCategories(),
   ]);
-  const [albums, categories] = await Promise.all(data.map((d) => d.json()));
 
   const albumMap = albums.reduce((acc: any, album: any) => {
     acc[album.id] = album;

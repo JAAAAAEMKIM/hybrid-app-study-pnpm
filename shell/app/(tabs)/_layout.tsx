@@ -3,10 +3,8 @@ import React from 'react';
 import WebView from 'react-native-webview';
 
 export default function TabLayout() {
-  
   return (
-    <WebView
-     source={{ uri: 'http://localhost:3000' }} style={{ flex: 1 }} />
+    <WebView source={{ uri: 'http://192.168.0.8:3000' }} style={{ flex: 1 }} />
   );
 
   // return (

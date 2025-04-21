@@ -26,6 +26,7 @@ export interface Music {
   // 개인화된 데이터에서 중첩된 정보를 사용할 경우 포함할 수 있음.
   album?: Album;
   artist?: Artist;
+  src: string;
 }
 
 // Category: 카테고리 정보 (browse by category 용)

@@ -1,15 +1,8 @@
-import { Badge } from '@/components/ui/badge';
+import { fetchMyMusics } from '@/apis/fetchMyMusics';
+import CreateClient from '@/app/create/client';
 
-export default function Create() {
-  return (
-    <>
-      <header className="flex flex-col gap-2 overscroll-none p-4 sticky">
-        <div className="flex gap-2">
-          <Badge className="rounded-full size-8 bg-amber-400">재</Badge>
-          <span className="text-xl font-semibold">Library</span>
-        </div>
-      </header>
-      <div></div>
-    </>
-  );
+export default async function Create() {
+  const data = await fetchMyMusics();
+
+  return <CreateClient data={data} />;
 }

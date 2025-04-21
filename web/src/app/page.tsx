@@ -8,18 +8,22 @@ import { Card, CardContent } from '@/components/ui/card';
 import Image from 'next/image';
 import { DayBased, OldFavorites, RecentlyPlayed } from '@/types';
 import MusicCard from '@/components/MusicCard';
+import { fetchRecentlyPlayed } from '@/apis/fetchRecentlyPlayed';
+import { fetchDayBased } from '@/apis/fetchDayBased';
+import { fetchOldFavorites } from '@/apis/fetchOldFavorites';
+import { signin } from '@/apis/signin';
 
 export default async function Home() {
   const data = await Promise.all([
-    fetch('http://localhost:3001/recentlyPlayed'),
-    fetch('http://localhost:3001/dayBased'),
-    fetch('http://localhost:3001/oldFavorites'),
+    fetchRecentlyPlayed(),
+    fetchDayBased(),
+    fetchOldFavorites(),
   ]);
   const [recentlyPlayed, dayBased, oldFavorites]: [
     RecentlyPlayed[],
     DayBased[],
     OldFavorites[]
-  ] = await Promise.all([data[0].json(), data[1].json(), data[2].json()]);
+  ] = await Promise.all([data[0], data[1], data[2]]);
 
   return (
     <>
